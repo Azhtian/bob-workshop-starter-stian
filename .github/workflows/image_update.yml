@@ -2,7 +2,7 @@ name: Update Web on Image repo changes
 
 on:
   repository_dispatch:
-    types: [image_upload]
+    types: [image_updated]
 jobs:
   update_web:
     runs-on: ubuntu-latest
